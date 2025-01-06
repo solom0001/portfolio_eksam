@@ -1,6 +1,32 @@
+.background {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid1_1-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 @media (min-width: 600px) {
-  .grid1_1 {
-    display: flex;
+  .grid1_1-1 {
     flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+
+  #header_img {
+    text-align: center;
+    align-self: center;
+    justify-self: center;
+  }
+
+  #header_txt {
+    text-align: center;
+    justify-self: baseline;
+    justify-self: right;
   }
 }
