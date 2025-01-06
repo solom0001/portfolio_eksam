@@ -1,0 +1,21 @@
+html {
+  /*colors*/
+  --primary-color: #1b1c1d;
+  --secondary-color: #a2e23a;
+  --secondary-color1: #ffffff;
+  --secondary-color2: #e23ada;
+  --secondary-color3: #e23a3a;
+  --secondary-color4: #3ab2e2;
+  --secondary-color5: #993ae2;
+
+  /*sizes*/
+  --xxs: 0.25rem;
+  --xs: 0.5rem;
+  --sm: 1rem;
+  --me: 2rem;
+  --ml: 3.5rem;
+  --la: 5rem;
+  --xl: 6.5rem;
+  --xxl: 8rem;
+  --xxxl: 10rem;
+}
