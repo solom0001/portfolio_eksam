@@ -68,6 +68,11 @@ h2 {
 }
 
 /***********intro_box*************/
+
+h1 {
+  color: var(--secondary-color);
+}
+
 #intro_box {
   margin-right: 2vw;
   margin-left: 2vw;
@@ -78,10 +83,15 @@ h2 {
   text-align: center;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 800px) {
   .background {
     height: 100vh;
   }
+
+  h1 {
+    font-size: 5rem;
+  }
+
   #intro_box {
     margin-right: 4vw;
     margin-left: 4vw;

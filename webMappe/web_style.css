@@ -61,7 +61,7 @@ h2 {
 
 #endDivtxt {
   display: flex;
-  border: 3px solid #a2e23a;
+  border: 3px solid var(--secondary-color);
   max-height: 100%;
   width: auto;
   padding: 2vw;
@@ -69,7 +69,7 @@ h2 {
 }
 
 #endDivtxt p {
-  color: #a2e23a;
+  color: var(--secondary-color);
 }
 @media (max-width: 800px) {
   #pBackdrop {
@@ -79,7 +79,7 @@ h2 {
 
   #pBackdrop p {
     font-size: 0.8rem;
-    color: #a2e23a;
+    color: var(--secondary-color);
     background-color: rgb(27, 28, 29, 0.8);
   }
 
@@ -99,5 +99,9 @@ h2 {
 
   #pBackdrop p {
     padding: 0;
+  }
+
+  .grid5_1-1 {
+    margin-top: 1rem;
   }
 }

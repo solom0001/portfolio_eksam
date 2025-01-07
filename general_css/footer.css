@@ -1,6 +1,8 @@
 footer {
   bottom: 0;
   display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: black;
 }
 
@@ -13,4 +15,32 @@ footer {
 .grid1_1-3-1 div {
   padding: 2vw;
   text-align: center;
+}
+
+#logo-container2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#logo-container2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100px;
+  height: auto;
+}
+
+#logo-container1 img {
+  width: 100%;
+  height: auto;
+}
+
+@media (max-width: 800px) {
+  .grid1_1-3-1 {
+    display: flex;
+    flex-direction: column;
+    padding: 0.8rem;
+  }
 }

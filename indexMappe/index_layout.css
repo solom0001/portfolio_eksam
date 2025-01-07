@@ -63,7 +63,7 @@
   z-index: 6;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 800px) {
   /*.grid1_1-1 {
     flex-direction: row;
     justify-content: space-between;
