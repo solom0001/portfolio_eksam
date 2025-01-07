@@ -19,3 +19,71 @@ html {
   --xxl: 8rem;
   --xxxl: 10rem;
 }
+
+.ibm-plex-mono-regular {
+  font-family: "IBM Plex Mono", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.khand-medium {
+  font-family: "Khand", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.istok-web-regular {
+  font-family: "Istok Web", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+html {
+  background-color: var(--primary-color);
+}
+
+h1 {
+  font-family: IBM Plex Mono;
+  font-size: var(--xxl);
+}
+
+h2 {
+  font-family: Khand;
+  font-size: var(--me);
+  padding-bottom: var(--sm);
+}
+
+p {
+  font-family: Istok Web;
+  color: var(--secondary-color1);
+  font-size: var(--sm);
+  padding-bottom: var(--xs);
+  margin-bottom: var(--xs);
+}
+
+li {
+  font-family: IBM Plex Mono;
+  color: var(--secondary-color1);
+  background-color: #1b1c1d;
+  font-size: var(--sm);
+}
+a {
+  text-decoration: none;
+}
+
+@media (max-width: 680px) {
+  h1 {
+    font-size: var(--la);
+  }
+
+  h2 {
+    font-size: var(--me);
+    padding-bottom: var(--sm);
+  }
+
+  p {
+    font-size: var(--sm);
+    padding-bottom: var(--xs);
+    margin-bottom: var(--xs);
+  }
+}

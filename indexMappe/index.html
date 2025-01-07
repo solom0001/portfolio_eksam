@@ -4,8 +4,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Condiment&family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Lora:ital,wght@0,400..700;1,400..700&family=Reem+Kufi+Fun:wght@400..700&family=Schibsted+Grotesk:ital,wght@0,400..900;1,400..900&family=Viga&display=swap"
+        rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Khand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+
+
     <link rel="stylesheet" href="../general_css/layout.css">
     <link rel="stylesheet" href="../general_css/style.css">
+    <link rel="stylesheet" href="../general_css/menu.css">
+    <link rel="stylesheet" href="../general_css/footer.css">
     <link rel="stylesheet" href="index_layout.css">
     <link rel="stylesheet" href="index_style.css">
     <title>Forside</title>
@@ -13,8 +33,31 @@
 
 <body>
     <header>
-
+        <div class="logo">
+            <a href="../indexMappe/index.html">
+                <img src="../imgs/logo.png" alt="Logo">
+            </a>
+        </div>
+        <nav>
+            <ul class="menu">
+                <li><a href="../introMappe/intro.html">Intro Uge</a></li>
+                <li><a href="../webMappe/web.html">Web</a></li>
+                <li><a href="../uxuiMappe/ux.html">UX/UI</a></li>
+                <li><a href="../indholdMappe/indhold.html">Indhold</a></li>
+                <li><a href="../om_migMappe/om.html">Om mig</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </nav>
     </header>
+
+
+
+
+    <script src="../menu.js"></script>
     <main>
         <div class="background">
             <div class="grid1_1-1">
@@ -37,7 +80,7 @@
             </div>
         </div>
 
-        <div>
+        <div id="intro_box">
             <h2>What to expect</h2>
 
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est temporibus corrupti consequuntur rerum
@@ -48,37 +91,86 @@
             </p>
         </div>
 
-        <div class="grid2_1-1">
-            <div id="box1">
-                <h2>Om mig</h2>
-            </div>
+        <div id="forside_oversigt">
 
-            <div id="box2">
-                <h2>Intro Uge</h2>
-            </div>
+            <div class="grid2_1-1">
+                <div id="box1">
+                    <a href="../om_migMappe/om.html">
+                        <div class="innerBox">
+                            <h2>Om mig</h2>
+                        </div>
+                    </a>
 
-            <div id="box3">
-                <h2>Grundlæggende Web</h2>
-            </div>
 
-            <div id="box4">
-                <h2>UX/UI</h2>
-            </div>
+                </div>
 
-            <div id="box5">
-                <h2>Animation</h2>
-            </div>
+                <div id="box2">
+                    <a href="../introMappe/intro.html">
+                        <div class="innerBox">
+                            <h2>Intro Uge</h2>
+                        </div>
+                    </a>
 
-            <div id="box6">
-                <h2>Indhold</h2>
+                </div>
+
+                <div id="box3">
+                    <a href="../webMappe/web.html">
+                        <div class="innerBox">
+                            <h2>Grundlæggende Web</h2>
+                        </div>
+                    </a>
+
+                </div>
+
+                <div id="box4">
+                    <a href="../uxuiMappe/">
+                        <div class="innerBox">
+                            <h2>UX/UI</h2>
+                        </div>
+                    </a>
+
+                </div>
+
+                <div id="box5">
+                    <a href="../animationMappe/animation.html">
+                        <div class="innerBox">
+                            <h2>Animation</h2>
+                        </div>
+                    </a>
+
+                </div>
+
+                <div id="box6">
+                    <a href="../indholdMappe/indhold.html">
+                        <div class="innerBox">
+                            <h2>Inhold</h2>
+                        </div>
+                    </a>
+
+                </div>
             </div>
         </div>
 
 
-
     </main>
     <footer>
+        <div class="grid1_1-3-1">
+            <div>
+                <img src="../imgs/logo.png" alt="Logo">
+            </div>
+            <div>
+                <h2>Lorem ipsum</h2>
 
+                <p>orem ipsum dolor sit amet consectetur adipisicing elit. Est temporibus</p>
+
+                <p>dolor voluptatibus fugiat consequatur dignissimos</p>
+            </div>
+            <div>
+                <p>Instagram</p>
+
+                <p>tiktok</p>
+            </div>
+        </div>
     </footer>
 
 
