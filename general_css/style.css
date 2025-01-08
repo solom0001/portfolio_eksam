@@ -68,7 +68,12 @@ li {
   font-size: var(--sm);
 }
 a {
-  text-decoration: none;
+  text-decoration: underline;
+  font-family: Istok Web;
+  color: var(--secondary-color);
+  font-size: var(--sm);
+  padding-bottom: var(--xs);
+  margin-bottom: var(--xs);
 }
 
 @media (max-width: 800px) {
