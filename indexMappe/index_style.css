@@ -54,6 +54,24 @@ h2 {
   background-color: var(--primary-color);
   border: 2px solid var(--secondary-color);
 }
+#header_img {
+  background-color: var(--primary-color);
+  border: 2px solid var(--secondary-color);
+}
+
+#header_img a {
+  text-decoration: none;
+}
+
+#header_img:hover {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  cursor: pointer;
+}
+
+#header_img:hover h2 {
+  color: var(--primary-color);
+}
 
 .grid2_1-1 div:hover {
   background-color: var(--secondary-color);

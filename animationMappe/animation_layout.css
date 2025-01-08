@@ -25,12 +25,12 @@
   position: relative;
   z-index: 1;
 }
-
+/* 
 .grid4_1-1 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 10px;
-}
+} */
 
 @media (min-width: 800px) {
   .grid1_1-2-1 {

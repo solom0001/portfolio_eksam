@@ -1,3 +1,6 @@
+//youtube guide til carousel javascript brugt=https://www.youtube.com/watch?v=9HcxHDS2w1s
+// chatGPT brugt til hjælp med stavfejl.
+//
 const buttons = document.querySelectorAll("[data-carousel-button]");
 
 buttons.forEach((button) => {
